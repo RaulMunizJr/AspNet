@@ -16,12 +16,18 @@ namespace MVCApplication.Models
         public bool IsTrue { get; set; }
     }
 }
+
+
+
 ```
 
 ## View
 - Visual
 ```
 Home/About -> http://.....home/about
+
+
+
 ```
 
 ## Controller
@@ -32,4 +38,7 @@ public ActionResult NameOfPage()
   View.Bag.Message="NameOfPage Page";
   return view();
 }
+
+
+
 ```
